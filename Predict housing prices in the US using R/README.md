@@ -45,9 +45,4 @@ Rscript -e "install.packages(c('[dplyr,forecast,randomForest,caret,psych,caTools
 # Running the script
 Rscript FinalCode.R
 
-Research Questions
-The research tackles the complexity of determining the factors influencing house pricing. It utilizes around 80 regressors to discover characteristics impacting home prices, aiming to enhance the accuracy of future property value predictions for potential real estate stakeholders.
-
-Approach
-The study evaluates housing stock using hedonic regression (OLS) and enhances it with maximum likelihood (ML) technique considering spatial correlations. It discusses the significance of macroeconomic and microeconomic factors and adopts the Random Forest method for a more accurate predictive model, proven to offer higher accuracy.
 
