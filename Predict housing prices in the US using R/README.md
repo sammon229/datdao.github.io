@@ -1,11 +1,33 @@
-# Project Title
-Predict housing prices in the US using R 
+# Real Estate Price Prediction: Ames, Iowa
 
-## Description
-This study focuses on how house characteristics influence house prices. We use a dataset from a specific city in the United States and house aspects to build a model that can accurately predict house prices. We discuss the research problem and its motivation, then describe our dataset and data-cleaning process. Following that, we will discuss the methodology and conclude with relevant implications for future research in this area.
+### Author: Dat Dao
+### Date: February 12, 2023
 
-## Installation
-Instructions on setting up the project environment and installing any necessary dependencies. This could include software requirements, libraries, and any other tools necessary for someone else to replicate the project.
+## Introduction
+This study delves into the impact of various house characteristics on the final sale price. Using a detailed dataset from Ames, Iowa, the project aims to create a reliable model for predicting house prices, helping buyers, sellers, real estate agents, appraisers, and investors make informed decisions.
+
+## Research Questions
+The study explores critical aspects influencing home pricing, which is a complex task especially for potential buyers or real estate agents looking to estimate prices accurately. With the goal to provide a more accurate prediction, the study utilizes around 80 regressors to identify influential characteristics on home prices.
+
+## Approach
+The methodology involves evaluating the housing stock using ordinary least squares (OLS) and improving predictions with maximum likelihood (ML) techniques considering spatial correlations. The study also delves into macroeconomic and microeconomic factors affecting housing values and employs Random Forest for precise regression modeling.
+
+## Data
+Utilizing a dataset from the Ames Housing Authority, this study encompasses residential property sales in Ames, Iowa, from 2006 to 2010. It includes 2930 observations with a wide range of quantitative and categorical variables detailing various home features. The aim is to predict the home's SalePrice, with the dataset offering a rich set of explanatory variables.
+
+## Methodology
+- **Multiple Linear Regression:** A full model analysis with all variables, focusing on identifying and removing any irrelevant variables to improve the model's fit.
+- **Multicollinearity Test:** Addressing issues where independent variables are highly correlated, affecting the model's output.
+- **Random Forest:** Utilizing this technique for its robustness in handling classification and regression problems, mitigating overfitting risks, and identifying critical features.
+
+## Implications
+The study acknowledges potential drawbacks like selection bias due to regional data limitation and emphasizes the need for incorporating macroeconomic factors into the model. It proposes employing a hybrid model integrating both micro and macro elements for effectively forecasting housing values.
+
+## Conclusion
+The study proposes an alternative approach using the Random Forest model, which outperforms multiple linear regression or decision trees by identifying variable importance and avoiding overfitting. The model can explain about 85% of the house sale price variation, highlighting the importance of both micro and macro factors in housing price prediction. The study's outcomes are envisioned to assist real estate brokers in enhancing their service and marketing strategies.
+
+For more information or to delve into the study's detailed analysis, please refer to the full research documentation&#8203;``【oaicite:0】``&#8203;.
+
 
 ### Requirements:
 - R (version 4.2.3)
@@ -29,12 +51,3 @@ The research tackles the complexity of determining the factors influencing house
 Approach
 The study evaluates housing stock using hedonic regression (OLS) and enhances it with maximum likelihood (ML) technique considering spatial correlations. It discusses the significance of macroeconomic and microeconomic factors and adopts the Random Forest method for a more accurate predictive model, proven to offer higher accuracy.
 
-Data
-The dataset comprises residential property sales in Ames, Iowa, from 2006-2010, covering a broad range of quantitative and categorical variables. It includes 2930 observations with detailed features of homes, aiming to predict the SalePrice.
-
-Methodology
-Multiple Linear Regression: The study begins with a full-model regression, moving towards variable selection to enhance model fit.
-Multicollinearity Test: Conducted to ensure independent variables aren't highly correlated, affecting model output.
-Random Forest: Chosen for its ability to handle both classification and regression problems, mitigate overfitting, and identify important features. The model accounts for a significant portion of the home sale price variation, emphasizing certain critical variables.
-Implications
-The study addresses potential selection biases and the need to incorporate macroeconomic factors for broader applicability. It discusses the model's utility for real estate brokers, enhancing website functionality, and advertisement strategies. It underscores the importance of a hybrid model integrating micro and macro elements for effective housing value prediction.
