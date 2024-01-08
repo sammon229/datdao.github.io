@@ -43,3 +43,7 @@ For more detailed analysis or to use this dataset for further research, please r
 git clone https://github.com/sammon229/datdao.github.io/new/main
 # Navigate to the project directory
 cd datdao.github.io/Data exploration and analysis using Python for residential properties in Ames, Iowa/
+
+# Running the script
+Pythonscript Data Exploreation and Analysis Ames,Iowa.ipynb
+
