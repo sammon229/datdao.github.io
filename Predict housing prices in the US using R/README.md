@@ -1,4 +1,4 @@
-# Real Estate Price Prediction: Ames, Iowa
+# Real Estate Price Prediction using R
 
 ### Author: Dat Dao
 ### Date: February 12, 2023
